@@ -8,7 +8,7 @@ const productlistSchema = new mongoose.Schema({
         unique: [true, "Product already exist"],
     },
 
-    quantity: {
+    price: {
         type: Number,
         required: true,
     }
